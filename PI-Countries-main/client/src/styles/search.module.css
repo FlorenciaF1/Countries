@@ -1,0 +1,32 @@
+.conteinerSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 1em;
+  width: 15em;
+  border: 1px solid black;
+  border-radius: 10em;
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+  width: 3em;
+  height: 3em;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: #15d1b8;
+  background: radial-gradient(circle, #15d1b8 19%, rgba(174, 238, 240, 0.9934348739495799) 86%);
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
